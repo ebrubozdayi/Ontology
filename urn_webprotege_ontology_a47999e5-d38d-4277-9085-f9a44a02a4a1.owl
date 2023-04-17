@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:a47999e5-d38d-4277-9085-f9a44a02a4a1#"
+     xml:base="urn:webprotege:ontology:a47999e5-d38d-4277-9085-f9a44a02a4a1"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:a47999e5-d38d-4277-9085-f9a44a02a4a1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date">
+        <rdfs:label>dc:date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format">
+        <rdfs:label>dc:format</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language">
+        <rdfs:label>dc:language</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:label>dc:publisher</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label>dc:title</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>rdfs:label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PEGPm38VnoSowUoP3z43Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PEGPm38VnoSowUoP3z43Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBz9i8inPvRdsyH9dRF6C66"/>
+        <rdfs:label>A Wrinkle in Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QyFdUCqadvVpu39NRRYum -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QyFdUCqadvVpu39NRRYum">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy"/>
+        <rdfs:label>Poetry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ULWVU6SBH5gKAB4HTjD2d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ULWVU6SBH5gKAB4HTjD2d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QyFdUCqadvVpu39NRRYum"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wordsong</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Color Me a Rhyme: Nature Poems for Young People</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Color Me a Rhyme: Nature Poems for Young People</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Color-Me-Rhyme-Nature-People/dp/1590781724/ref=sr_1_1?crid=957QGBJS6XU&amp;keywords=Color+Me+a+Rhyme%3A+Nature+Poems+for+Young+People&amp;qid=1650970551&amp;sprefix=color+me+a+rhyme+nature+poems+for+young+people%2Caps%2C412&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zzduIy8pBD06NogjHCbFh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zzduIy8pBD06NogjHCbFh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy"/>
+        <rdfs:label>Science Fiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81QHMiDkBwKp3nyzmotGvT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81QHMiDkBwKp3nyzmotGvT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QyFdUCqadvVpu39NRRYum"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viking Juvenile</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Seeds</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Silver Seeds</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Silver-Seeds-Book-Nature-Poems/dp/0670889415/ref=sr_1_1?crid=3BEI58FZJJ3JR&amp;keywords=Silver+Seeds&amp;qid=1650970761&amp;sprefix=silver+seeds%2Caps%2C349&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8dlTkFeNoiJamCWQxxzePR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8dlTkFeNoiJamCWQxxzePR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBz9i8inPvRdsyH9dRF6C66"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viking Books for Young Readers</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charlie and the Chocolate Factory</dc:title>
+        <rdfs:label>Charlie and the Chocolate Factoy</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Charlie-Chocolate-Factory-Roald-Dahl/dp/0142410314/ref=sr_1_3?crid=8CJMSIL6LM6V&amp;keywords=Charlie+and+the+Chocolate+Factory&amp;qid=1650969245&amp;sprefix=charlie+and+the+chocolate+factory%2Caps%2C364&amp;sr=8-3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99CeXw7ncq6YO0TNYEjDIx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99CeXw7ncq6YO0TNYEjDIx">
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9CMXEOLSyxtZCCs4qlV7tc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9CMXEOLSyxtZCCs4qlV7tc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zzduIy8pBD06NogjHCbFh"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knopf Books for Young Readers</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boy and Bot</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boy and Bot</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Boy-Bot-Ame-Dyckman/dp/0375867562/ref=sr_1_1?crid=19P1O8M6UN9WS&amp;keywords=Boy+and+Bot+by+Ame+Dyckman+and+Dan+Yaccarino&amp;qid=1650969974&amp;s=audible&amp;sprefix=boy+and+bot+by+ame+dyckman+and+dan+yaccarino%2Caudible%2C336&amp;sr=1-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8TSnqCK5PFWY1K6pQRhl8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8TSnqCK5PFWY1K6pQRhl8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChgU0EXD0b8cwHuII31tlH"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clarion Books</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miss Moore Thought Otherwise: How Anne Carroll Moore Created Librares for Children</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Miss Moore Thought Otherwise: How Anne Carroll Moore Created Librares for Children</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Miss-Moore-Thought-Otherwise-Libraries/dp/054747105X/ref=sr_1_1?crid=FXKR9W8VM375&amp;keywords=Miss+Moore+Thought+Otherwise%3A+How+Anne+Carroll+Moore+Created+Libraries+for+Children&amp;qid=1650968594&amp;sprefix=miss+moore+thought+otherwise+how+anne+carroll+moore+created+libraries+for+children%2Caps%2C291&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBz9i8inPvRdsyH9dRF6C66 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBz9i8inPvRdsyH9dRF6C66">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy"/>
+        <rdfs:label>Fantasy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCKL2oYF0SiF1L4GZI3gXrW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCKL2oYF0SiF1L4GZI3gXrW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zzduIy8pBD06NogjHCbFh"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First Second</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zita the Spacegirl</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zita the Spacegirl</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Zita-Spacegirl-Ben-Hatke/dp/1596434465/ref=sr_1_1?crid=NQ2APEI3X6D6&amp;keywords=Zita+the+Spacegirl+by+Ben+Hatke&amp;qid=1650970303&amp;sprefix=zita+the+spacegirl+by+ben+hatke%2Caps%2C335&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChgU0EXD0b8cwHuII31tlH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RChgU0EXD0b8cwHuII31tlH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy"/>
+        <rdfs:label>Biography</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCoUOZfUC8AHFuR0HOe5KLA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCoUOZfUC8AHFuR0HOe5KLA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBz9i8inPvRdsyH9dRF6C66"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pottermore Publishing</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harry Potter and the Sorcerer’s Stone</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harry Potter and the Sorcerer’s Stone</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Harry-Potter-Sorcerers-Stone-Book/dp/B017V4IMVQ/ref=sr_1_1?crid=2LE2K6LURT9ZB&amp;keywords=Harry+Potter+and+the+Sorcerer%E2%80%99s+Stone&amp;qid=1650969446&amp;sprefix=harry+potter+and+the+sorcerer+s+stone%2Caps%2C362&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWGyaz4WsRXsU5rt71TLuD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWGyaz4WsRXsU5rt71TLuD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zzduIy8pBD06NogjHCbFh"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scholastic Press</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If You Decide to Go to the Moon</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If You Decide to Go to the Moon</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/If-You-Decide-Go-Moon/dp/0590483595/ref=sr_1_1?crid=2KMGYD3ZK51MN&amp;keywords=If+You+Decide+to+Go+to+the+Moon+by+Faith+Mcnulty+and+Steven+Kellogg&amp;qid=1650970085&amp;sprefix=if+you+decide+to+go+to+the+moon+by+faith+mcnulty+and+steven+kellogg%2Caps%2C421&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgqIwSZhEdZB3r2mhNhTm5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgqIwSZhEdZB3r2mhNhTm5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7QyFdUCqadvVpu39NRRYum"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abrams Books for Young Readers</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">World Make Way: New Poems Inspired</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">World Make Way: New Poems Inspired</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/World-Make-Way-Inspired-Metropolitan/dp/1419728458/ref=sr_1_1?crid=286UFWEXP5SAK&amp;keywords=World+Make+Way%3A+New+Poems+Inspired&amp;qid=1650970653&amp;sprefix=world+make+way+new+poems+inspired%2Caps%2C339&amp;sr=8-1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKACs9quoR4R3SrO6nUDzy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R99CeXw7ncq6YO0TNYEjDIx"/>
+        <rdfs:label>Children&apos;s Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRjMXa5aZyROn31DQbDaGs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRjMXa5aZyROn31DQbDaGs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChgU0EXD0b8cwHuII31tlH"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schwartz &amp; Wade</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Watcher: Jane Goodall&apos;s Life with the Chimps</dc:title>
+        <rdfs:label>The Watcher: Jane Goodall’s Life with the Chimps</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Watcher-Jane-Goodalls-Life-Chimps/dp/0375867740/ref=sr_1_fkmr1_1?crid=706WKGBXYY6T&amp;keywords=the+watcher+jane+goodall+s+life+with+the+chimps+by+jeanette+winter&amp;qid=1650966771&amp;sprefix=The+Watcher%3A+Jane+Goodall%E2%80%99s+Life+with+the+Chimps%2Caps%2C366&amp;sr=8-1-fkmr1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rb9GHVa1DpXCSrL1vNhWvA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rb9GHVa1DpXCSrL1vNhWvA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RChgU0EXD0b8cwHuII31tlH"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Print</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronicle Books</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On a Beam of Light: A Story of Albert Einstein</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On a Beam of Light: A Story of Albert Einstein</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.com/Beam-Light-Story-Albert-Einstein/dp/145215211X/ref=sr_1_1?crid=218UL0C0FQK8B&amp;keywords=On+a+Beam+of+Light%3A+A+Story+of+Albert+Einstein&amp;qid=1650968921&amp;sprefix=on+a+beam+of+light+a+story+of+albert+einstein%2Caps%2C422&amp;sr=8-1"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
